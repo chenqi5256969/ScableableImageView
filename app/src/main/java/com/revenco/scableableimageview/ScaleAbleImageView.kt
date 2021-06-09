@@ -49,7 +49,6 @@ private fun getAvatar(resources: Resources, width: Int): Bitmap {
     options.inTargetDensity = width
     options.inDensity = options.outWidth
     options.inJustDecodeBounds = false
-
     return BitmapFactory.decodeResource(resources, R.drawable.icon_dingdang, options)
 }
 
